@@ -1,0 +1,16 @@
+name: qt
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cudatoolkit=10.1
+  - joblib
+  - numba
+  - numpy
+  - python=3.6
+  - pytorch
+  - scikit-learn
+  - scipy
+  - torchvision
+  - tqdm
+  - jupyter
