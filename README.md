@@ -11,7 +11,7 @@ conda env create -f environment.yml
 conda activate qt
 python setup.py develop
 ```
-3. Point `BASE` in `query_training/__init__.py` to the data directory
+3. Download the [data](http://vcrs-public-aaai-2021-query-training.s3-website-us-west-2.amazonaws.com/) and point `BASE` in `query_training/__init__.py` to the data directory
 
 The code was tested on Ubuntu 18.04 with CUDA 10.1.
 
